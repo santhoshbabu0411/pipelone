@@ -1,0 +1,14 @@
+node {
+    stage('Build'){
+        echo "Firstline"
+    }
+    stage('Test'){
+        echo "Secondline"
+    }
+    stage('Deploy'){
+        echo "Thirdline"
+    }
+     stage('PROD'){
+        echo "Finaline"
+    }
+}
